@@ -3,7 +3,7 @@ Kuinka saan projektin toimimaan???
 Vilkaistaan ensin projektin isoa rakennetta.
 Projektin alla on 2 osiota: 'python'-paketti ja 'web'-kansio.
 'python' on siis 'Python Package' ja 'web' on 'Directory' PyCharmin kielellä.
-Ideana on yllättäen että 'python' alle tulevat Python-koodit ja
+Ideana on yllättäen että 'python' alle tulevat kaikki Python-koodit ja
 kaikki web-jutut tulevat 'web' alle.
 
 Projekti on esimerkki laajasta ns. Full-Stack projektista, eli
@@ -20,13 +20,14 @@ joita hakkerit kokeilevat ensimmäiseksi..
 - käynnistä tietokanta koneessasi
 
 B) Python-kirjastojen asentaminen
-- avaa Pythonin kirjastojen asennus pikakuvakkesta tai ylävalikosta
+- avaa Pythonin kirjastojen asennus pikakuvakkeesta tai ylävalikosta
 'View - Tool Windows - Python Packages'
 - asenna seuraavat kirjastot:
     - 'sql-connector-python' kirjasto
         - hakukenttään esimerkiksi 'connector' ja etsi em. kirjasto
         - HUOM: älä ota uusinta versiota, se ei todennäköisesti toimi
         - ope asensi version: 8.0.29
+        - jos asensit uusimman version, niin poista se ensin ja asenna sitten em. versio.
     - 'Flask' kirjasto
         - hakusana: 'Flask', asenna uusin versio
     - 'Flask-Cors' kirjasto

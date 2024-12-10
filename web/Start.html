@@ -2,20 +2,28 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Kentat</title>
+    <title>Flygspel</title>
     <link rel="stylesheet" type="text/css" href="css/MaaJaKentat.css">
     <script src="js/skriptit.js" defer></script>
     <!-- defer tarkoittaa että skiptejä ajetaan vasta kun koko sivu latautunut-->
 </head>
 <body>
-<h1> Valitse maa ja minä näytän sen maan kaikki kentät</h1>
+<h3 id="sijainti">Nykyinen sijainti: </h3>
+<div id="lentoKenttahaku">
+    <select id="kontinenterna">
+        <option value="AF">Afrikka</option>
+        <option value="AS">Aasia</option>
+        <option value="EU">Eurooppa</option>
+        <option value="NA">Pohjois-Amerikka</option>
+        <option value="SA">Etelä-Amerikka</option>
+        <option value="OC">Oseania</option>
+        <option value="AN">Antarktis</option>
+    </select>
+</div>
 
-<select id="maat">
-    <option value="tulossa">Tulossa...</option>
-</select>
-<button id="hae">Hae</button>
-<ul id="kentat">
-    <li value="tulossa">Tulossa...</li>
-</ul>
+<div id="lennotContainer">
+    <ul id="lennot"></ul>
+</div>
+
 </body>
 </html>

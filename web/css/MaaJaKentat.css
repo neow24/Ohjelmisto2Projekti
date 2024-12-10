@@ -1,3 +1,14 @@
 body {
     background-color: #A7D0D9;
 }
+
+#lentoKenttahaku input,
+#lentoKenttahaku select,
+#lentoKenttahaku button {
+    display: block;
+    margin: 5px;
+}
+
+#painike {
+    margin: 5px;
+}
